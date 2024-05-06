@@ -1,4 +1,7 @@
 # 2c.SIMULATING ARP /RARP PROTOCOLS
+
+## NAME: SAIGURUCHANDRAN
+## REG NO: 212223240143
 ## AIM
 To write a python program for simulating ARP protocols using TCP.
 ## ALGORITHM:
@@ -43,7 +46,13 @@ while True:
     print("MAC Address",s.recv(1024).decode())
 ```
 ## OUTPUT - ARP
-![Screenshot 2024-03-04 143614](https://github.com/22008837/2c.ARP_RARP_PROTOCOLS/assets/120194155/13431fa8-4ab9-42fb-af83-ad3167508459)
+
+## CLIENT:
+![WhatsApp Image 2024-05-06 at 14 20 40_1f983209](https://github.com/Saiguruchandran/2c.ARP_RARP_PROTOCOLS/assets/144870946/d5b91c5d-f3a9-467d-8d82-24604f087252)
+
+## SERVER:
+![WhatsApp Image 2024-05-06 at 14 20 51_85c0cf9d](https://github.com/Saiguruchandran/2c.ARP_RARP_PROTOCOLS/assets/144870946/13b4f2b8-2156-4364-b0e8-3cfd31998e8f)
+
 ## PROGRAM - RARP
 ## Client Progam:
 ```
@@ -71,7 +80,14 @@ while True:
     print("Logical address",s.recv(1024).decode())
 ```
 ## OUTPUT -RARP
-![Screenshot 2024-02-26 144916](https://github.com/22008837/2c.ARP_RARP_PROTOCOLS/assets/120194155/862e4d5a-9916-49ce-ae40-5047309c303d)
+
+## CLIENT:
+![WhatsApp Image 2024-05-06 at 14 21 17_a6621c5c](https://github.com/Saiguruchandran/2c.ARP_RARP_PROTOCOLS/assets/144870946/d290a705-7c18-43c1-ae2d-6c6392a0d4ae)
+
+## SERVER
+![WhatsApp Image 2024-05-06 at 14 21 26_88b7d96e](https://github.com/Saiguruchandran/2c.ARP_RARP_PROTOCOLS/assets/144870946/6de5c060-316a-4cfe-bb63-72e922c3f201)
+
+
 ## RESULT
 Thus, the python program for simulating ARP protocols using TCP was successfully 
 executed.
